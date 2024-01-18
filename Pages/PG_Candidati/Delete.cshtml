@@ -1,0 +1,46 @@
+﻿@page
+@model Fanca_Loredana_Madalina.Pages.PG_Candidati.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Candidati</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Candidati.Nume_Prenume)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Candidati.Nume_Prenume)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Candidati.GDPR)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Candidati.GDPR)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Candidati.Documente)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Candidati.Documente)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Candidati.Rol)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Candidati.Rol.Companie)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Candidati.ID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

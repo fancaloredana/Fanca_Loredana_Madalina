@@ -1,0 +1,48 @@
+﻿@page
+@model Fanca_Loredana_Madalina.Pages.PG_Roluri.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Roluri[0].DenumireRol)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Roluri[0].Companie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Roluri[0].Documente)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Roluri) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DenumireRol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Companie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Documente)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

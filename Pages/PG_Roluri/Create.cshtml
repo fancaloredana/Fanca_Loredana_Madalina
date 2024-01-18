@@ -1,0 +1,44 @@
+﻿@page
+@model Fanca_Loredana_Madalina.Pages.PG_Roluri.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Roluri</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Roluri.DenumireRol" class="control-label"></label>
+                <input asp-for="Roluri.DenumireRol" class="form-control" />
+                <span asp-validation-for="Roluri.DenumireRol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Roluri.Companie" class="control-label"></label>
+                <input asp-for="Roluri.Companie" class="form-control" />
+                <span asp-validation-for="Roluri.Companie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Roluri.Documente" class="control-label"></label>
+                <input asp-for="Roluri.Documente" class="form-control" />
+                <span asp-validation-for="Roluri.Documente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

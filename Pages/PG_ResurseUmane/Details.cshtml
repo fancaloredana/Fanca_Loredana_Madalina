@@ -1,0 +1,46 @@
+﻿@page
+@model Fanca_Loredana_Madalina.Pages.PG_ResurseUmane.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ResurseUmane</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ResurseUmane.Nume_Prenume)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ResurseUmane.Nume_Prenume)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ResurseUmane.Functie)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ResurseUmane.Functie)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ResurseUmane.Numar_Telefon)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ResurseUmane.Numar_Telefon)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ResurseUmane.StudiiSuperioare.Specializare)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ResurseUmane.StudiiSuperioare.Facultate)
+        </dd>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ResurseUmane.Candidati.Nume_Prenume)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.ResurseUmane.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

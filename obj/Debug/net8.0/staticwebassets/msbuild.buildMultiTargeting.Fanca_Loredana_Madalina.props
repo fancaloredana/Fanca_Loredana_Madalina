@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Fanca_Loredana_Madalina.props" />
+</Project>

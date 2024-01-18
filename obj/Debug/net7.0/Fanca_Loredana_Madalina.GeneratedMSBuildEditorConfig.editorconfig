@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Fanca_Loredana_Madalina
+build_property.RootNamespace = Fanca_Loredana_Madalina
+build_property.ProjectDir = C:\Users\Lili\source\repos\Fanca_Loredana_Madalina\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Lili\source\repos\Fanca_Loredana_Madalina
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_Candidati/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfQ2FuZGlkYXRpXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_Candidati/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfQ2FuZGlkYXRpXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_Candidati/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfQ2FuZGlkYXRpXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_Candidati/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfQ2FuZGlkYXRpXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_Candidati/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfQ2FuZGlkYXRpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_ResurseUmane/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfUmVzdXJzZVVtYW5lXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_ResurseUmane/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfUmVzdXJzZVVtYW5lXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_ResurseUmane/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfUmVzdXJzZVVtYW5lXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_ResurseUmane/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfUmVzdXJzZVVtYW5lXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_ResurseUmane/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfUmVzdXJzZVVtYW5lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_StudiiSuperioare/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfU3R1ZGlpU3VwZXJpb2FyZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_StudiiSuperioare/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfU3R1ZGlpU3VwZXJpb2FyZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_StudiiSuperioare/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfU3R1ZGlpU3VwZXJpb2FyZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_StudiiSuperioare/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfU3R1ZGlpU3VwZXJpb2FyZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/PG_StudiiSuperioare/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUEdfU3R1ZGlpU3VwZXJpb2FyZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lili/source/repos/Fanca_Loredana_Madalina/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m2ln9txwzg

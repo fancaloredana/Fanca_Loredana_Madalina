@@ -1,0 +1,39 @@
+﻿@page
+@model Fanca_Loredana_Madalina.Pages.PG_StudiiSuperioare.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>StudiiSuperioare</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StudiiSuperioare.Facultate" class="control-label"></label>
+                <input asp-for="StudiiSuperioare.Facultate" class="form-control" />
+                <span asp-validation-for="StudiiSuperioare.Facultate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StudiiSuperioare.Specializare" class="control-label"></label>
+                <input asp-for="StudiiSuperioare.Specializare" class="form-control" />
+                <span asp-validation-for="StudiiSuperioare.Specializare" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
